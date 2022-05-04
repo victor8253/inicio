@@ -1,0 +1,37 @@
+header{
+    background-color: #7c5e99;
+}
+a{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "fira code";
+    font-weight: 500; /*bold*/
+    text-decoration: none; /*retira o underline e deixa sem nada*/
+    margin-right: 30px; /*espaço a direita*/
+    background-color: red;
+}
+img{
+
+    max-width: 100%;
+    max-height: 100%;
+    color: rgb(248, 27, 27);
+}
+.avatar{
+    height: 100px;
+    width: 100px;
+}
+
+#botao{ /*USAR # PARA SELECIONAR UM ID*/
+    background-color: #f25A70;
+    margin-bottom: auto;
+    display: inline-block; /*desbloqueia alteração de medidas do botão*/
+    height: 60px; /*altura do botão*/
+    line-height: 60px; /*receita de bolo, sempre igual ao height do botão*/
+    padding-left: 20px; /*preenchimento esquerda 20px*/
+    padding-right: 20px; /*preenchimento direita 20px*/
+    box-shadow: 5px 5px 0 black; /*eixo X(5px) eixo Y(5px) borrão(0px) cor da sombra(black)*/
+}
+
+nav{
+    background-color: black;
+}
